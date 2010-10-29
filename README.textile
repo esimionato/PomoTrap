@@ -8,8 +8,9 @@ h2. Briefing
 * time trap ideas from "timetrap":http://github.com/samg/timetrap
 * add feed planning with little tasks (timer)
 * extract ideas from Pomodoro technique
-* Arduino
-* create interface to export to a few useful formats
+* easily track which tasks blown and which got interrupted and why
+* Arduino to visually display time (tomato)
+* create interface to export to a few useful formats (excel, etc)
 * reports, metrics
 
 

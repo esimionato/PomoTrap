@@ -1,16 +1,16 @@
 h1. PomoTrap
 
-	Plan. Focus. Do. Report.
+	Plan. Register. Focus. Do. Report.
 
-	Detailed information ...
 
 h2. Briefing
 
 * time trap ideas from "timetrap":http://github.com/samg/timetrap
+* add feed planning with little tasks (timer)
 * extract ideas from Pomodoro technique
-* introduce console timer
-* create interface/export to Excel 
-* email
+* Arduino
+* create interface to export to a few useful formats
+* reports, metrics
 
 
 h3. Developer notes

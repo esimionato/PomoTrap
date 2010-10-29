@@ -3,6 +3,7 @@ h1. PomoTrap
 	Plan. Register. Focus. Do. Report.
 	
 	I want to work on specific little (25 minutes) tasks. And, in theory, do not get interrupted.
+	
 
 
 h2. Briefing
@@ -11,7 +12,8 @@ h2. Briefing
 * add feed planning with little tasks (timer)
 * extract ideas from Pomodoro technique
 * easily track which tasks blown and which got interrupted and why
-* Arduino to visually display time (tomato)
+* Arduino: visually display time (tomato)
+* Arduino: tap the tomato if the task gets interrupted (i.e. the phone rings)
 * create interface to export to a few useful formats (excel, etc)
 * reports, metrics
 

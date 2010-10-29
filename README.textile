@@ -1,0 +1,20 @@
+h1. PomoTrap
+
+	Plan. Focus. Do. Report.
+
+	Detailed information ...
+
+h2. Briefing
+
+* time trap ideas from "timetrap":http://github.com/samg/timetrap
+* extract ideas from Pomodoro technique
+* introduce console timer
+* create interface/export to Excel 
+* email
+
+
+h3. De
+
+kayaman@baurets.net
+
+Be welcome.

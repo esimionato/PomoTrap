@@ -1,6 +1,8 @@
 h1. PomoTrap
 
 	Plan. Register. Focus. Do. Report.
+	
+	I want to work on specific little (25 minutes) tasks. And, in theory, do not get interrupted.
 
 
 h2. Briefing

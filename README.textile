@@ -13,7 +13,7 @@ h2. Briefing
 * email
 
 
-h3. De
+h3. Developer notes
 
 kayaman@baurets.net
 

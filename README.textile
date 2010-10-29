@@ -18,8 +18,14 @@ h2. Briefing
 * reports, metrics
 
 
+h2. Further reading
+
+* "Pomodoro technique":http://www.pomodorotechnique.com/
+* "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
+
+
 h3. Developer notes
 
 kayaman@baurets.net
 
-Be welcome.
+Please be welcome.

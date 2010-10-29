@@ -23,6 +23,9 @@ h2. Further reading
 * "Pomodoro technique":http://www.pomodorotechnique.com/
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
 
+* "Ruby Arduino Development":http://github.com/atduskgreg/rad
+* "RAD Rubyforge":http://rad.rubyforge.org/
+
 
 h3. Developer notes
 

@@ -13,7 +13,7 @@ h2. Briefing
 * easily track which tasks blown and which got interrupted and why
 * Arduino: visually display time (tomato)
 * Arduino: tap the tomato if the task gets interrupted (i.e. the phone rings)
-* create interface to export to a few useful formats (excel, etc)
+* create interface to export to a few useful formats (Excel, Numbers, etc)
 * reports, metrics
 
 h2. Pomodoro Technique
@@ -31,7 +31,7 @@ h2. Pomodoro Technique
 ** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
 ** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
 ** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
-** The effort that one task takes is underestimated. The scope of a task is underestimated. (Out Of Scope?)
+** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating. (Out Of Scope?)
 
 h2. Further reading
 

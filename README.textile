@@ -23,7 +23,10 @@ h2. Pomodoro Technique
 ** Tomato-shaped timer
 ** One activity at a time
 ** Time boxed activities
-** The Timer: Start to focus. Wind up a timer which will wake you up later. Then you can reanalyze: is the activity that you focused on still the one that matters most?
+** The Timer: 
+*** Start to focus. 
+*** Wind up a timer which will wake you up later. 
+*** Then you can reanalyze: is the activity that you focused on still the one that matters most?
 
 
 h2. Further reading

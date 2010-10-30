@@ -18,7 +18,7 @@ h2. Briefing
 
 h2. Pomodoro Technique
 
-	The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. It feels sort of like being a single-person team doing 25-minute iterations.
+	The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. It feels sort of like being a single-person team doing 25-minute iterations. 
 
 ** Tomato-shaped timer
 ** One activity at a time
@@ -27,7 +27,11 @@ h2. Pomodoro Technique
 *** Start to focus. 
 *** Wind up a timer which will wake you up later. 
 *** Then you can reanalyze: is the activity that you focused on still the one that matters most?
-
+** Get rewarded with a break.
+** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
+** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
+** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
+** The effort that one task takes is underestimated. The scope of a task is underestimated. (Out Of Scope?)
 
 h2. Further reading
 

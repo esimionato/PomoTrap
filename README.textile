@@ -32,6 +32,8 @@ h2. Pomodoro Technique
 ** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
 ** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
 ** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating. (Out Of Scope?)
+** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
+** A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple.
 
 h2. Further reading
 

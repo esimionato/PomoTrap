@@ -34,9 +34,10 @@ h2. Pomodoro Technique
 ** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating. (Out Of Scope?)
 ** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
 ** A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple.
-** You forget about the wholeness while in the flow. The break gives the brain a chance to absorb what you saw during the last task, and you will probably 
-
-
+** You forget about the wholeness while in the flow. The break gives the brain a chance to absorb what you saw during the last task, and you will probably have at least three new ideas.
+** Estimates are seen as promises. Cut off the unnecessary anxiety created by yourself and your co-workers. After 25 minutes of effort, you can focus on your activities even when you're close to a deadline.
+** The process is not based on facts. Tracking. Daily retrospective. (metrics, completed, blown, interruptions, etc)
+** Someone pushes work on you. The fight between "have-to" and "want-to" is known as the "terrible two". By actively selecting activities instead of getting them pushed, you increase your personal commitment.
 
 
 h2. Further reading

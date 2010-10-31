@@ -34,6 +34,10 @@ h2. Pomodoro Technique
 ** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating. (Out Of Scope?)
 ** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
 ** A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple.
+** You forget about the wholeness while in the flow. The break gives the brain a chance to absorb what you saw during the last task, and you will probably 
+
+
+
 
 h2. Further reading
 
@@ -41,6 +45,11 @@ h2. Further reading
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
 * "Ruby Arduino Development":http://github.com/atduskgreg/rad
 * "RAD Rubyforge":http://rad.rubyforge.org/
+
+h2. Useful information
+
+* "Tomato Timer web app":http://www.tomato-timer.com/
+* "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer
 
 
 h3. Developer notes

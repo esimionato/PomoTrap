@@ -6,6 +6,8 @@ h1. PomoTrap
 	
 	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Techique. It works fine for people working alone or in small teams.
 	
+	This is almost zero process. We have a timer, things to do, will to do things, and lots of doing.
+	
 	Based on your 'sprint' planning, select a few tasks in the 'morning'. Prioritize and decide how much work will be done. (velocity)
 	
 	Input the tasks in the system. Start the first task by moving the Tomato (timer)!

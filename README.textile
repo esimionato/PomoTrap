@@ -3,6 +3,18 @@ h1. PomoTrap
 	Plan. Select. Focus. Report.
 	
 	I want to work on specific little tasks. And, in theory, do not get interrupted.
+	
+	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Techique. It works fine for people working alone or in small teams.
+	
+	Based on your 'sprint' planning, select a few tasks in the 'morning'. Prioritize and decide how much work will be done. (velocity)
+	
+	Input the tasks in the system. Start the first task by moving the Tomato (timer)!
+	
+    You will be warned when the time finishes. If you get interrupted, tap the tomato, the clock will halt and the system will prompt you for the reason of the interruption when you get back.
+
+	After one task. You do one short break. Every 4 tasks. You do a longer break.
+	
+	Each person knows how much tasks can be done in one day. 
 
 
 h2. Briefing
@@ -18,7 +30,8 @@ h2. Briefing
 
 h2. Pomodoro Technique
 
-	The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. It feels sort of like being a single-person team doing 25-minute iterations. 
+* The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. 
+* It feels sort of like being a single-person team doing 25-minute iterations. 
 
 ** Tomato-shaped timer
 ** One activity at a time
@@ -31,13 +44,17 @@ h2. Pomodoro Technique
 ** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
 ** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
 ** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
-** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating. (Out Of Scope?)
+** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating.
 ** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
 ** A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple.
 ** You forget about the wholeness while in the flow. The break gives the brain a chance to absorb what you saw during the last task, and you will probably have at least three new ideas.
 ** Estimates are seen as promises. Cut off the unnecessary anxiety created by yourself and your co-workers. After 25 minutes of effort, you can focus on your activities even when you're close to a deadline.
 ** The process is not based on facts. Tracking. Daily retrospective. (metrics, completed, blown, interruptions, etc)
 ** Someone pushes work on you. The fight between "have-to" and "want-to" is known as the "terrible two". By actively selecting activities instead of getting them pushed, you increase your personal commitment.
+** Perfectionism prevents action. 
+** Fear of failure or criticism is a mental impediment.
+
+* Context
 
 
 h2. Further reading

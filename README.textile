@@ -68,12 +68,11 @@ h2. Pomodoro Technique
 ** Savant. Idiot savant. Knowing idiot. Right hemisphere compensation.
 ** Hyperactivity. Small breaks every half hour and not more than 40-hour/week work schedule.
 ** The working memory is limited.
-** Information storage: short term: - as sound; long term: semantically.
+** Information storage: short term: as sound; long term: semantically.
 
 * Time 
 ** Time as duration. Unpredictable. Anxiety.
 ** Time as succession. Non-overlapping.
-
 
 
 

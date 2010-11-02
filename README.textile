@@ -4,7 +4,8 @@ h1. PomoTrap
 	
 	I want to work on specific little tasks. And, in theory, do not get interrupted.
 	
-	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Technique. Providing an easy way to track record of what made you change your way.
+	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Technique. 
+	Providing an easy way to track record of what made you change your way.
 	
 	It works fine for people working alone or in small teams.
 	
@@ -45,7 +46,8 @@ h2. Pomodoro Technique
 *** Wind up a timer which will wake you up later. 
 *** Then you can reanalyze: is the activity that you focused on still the one that matters most?
 ** Get rewarded with a break.
-** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
+** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one 
+activity at a time.
 ** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
 ** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
 ** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating.
@@ -75,10 +77,17 @@ h2. Pomodoro Technique
 ** Time as succession. Non-overlapping.
 
 * Dreaming
-** REM. Rapid eye movement. 
+** REM. Rapid eye movement. Brain replay our daily impressions. Assembles memory, removing least important emotional parts.
+** Relational memory. Absorbing. Transitive inference. Premise pairs.
+
+* Skalman
+** Food-and-Sleep Clock
+** Turtle-shaped Swedish cartoon character. Shell man.
+** It doesn't matter wether the monster is just about to devour Skalman and his best friends. If the clock says it's time to sleep, then 
+Skalman 
 
 
-h2. Further reading
+** h2. Further reading
 
 * "Pomodoro Technique":http://www.pomodorotechnique.com/
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
@@ -89,6 +98,8 @@ h2. Further reading
 * "Shell Programming with Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/shell_programming_with_txtzyme
 * "http://dorkbotpdx.org/search/node/txtzyme":http://dorkbotpdx.org/search/node/txtzyme
 * "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
+
+* "Mustache":http://github.com/defunkt/mustache
 
 h2. Useful information
 

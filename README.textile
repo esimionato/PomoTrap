@@ -102,6 +102,7 @@ h2. Further reading
 
 * "Mustache":http://github.com/defunkt/mustache
 * "Mustache TextMate Bundle":http://github.com/defunkt/Mustache.tmbundle
+* "Rails3Template":http://github.com/dcrec1/rails3_template
 
 h2. Useful information
 
@@ -109,8 +110,14 @@ h2. Useful information
 * "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer
 
 
-h2. Developer notes
+h2. Contributors
 
-kayaman@baurets.net
+Marco Antonio Gonzalez Junior - kayaman@baurets.net
 
-Please be welcome.
+Please be welcome. Throw your tomato! :)
+
+
+h2. License
+
+* The Pomodoro Technique was developed by Francesco Cirillo. Its own license information can be found "here":http://www.pomodorotechnique.com/license.html
+* PomoTrap is released/developed under the Open Source Initiative OSI - The MIT License/Licensing. "#":http://www.opensource.org/licenses/mit-license.php

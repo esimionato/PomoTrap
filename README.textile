@@ -100,6 +100,7 @@ Skalman
 * "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
 
 * "Mustache":http://github.com/defunkt/mustache
+* "Mustache TextMate Bundle":http://github.com/defunkt/Mustache.tmbundle
 
 h2. Useful information
 

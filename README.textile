@@ -26,12 +26,12 @@ h2. Briefing
 
 * time trap ideas from "timetrap":http://github.com/samg/timetrap
 * add feed planning with little tasks (25 minutes) (timer)
-* extract ideas from Pomodoro technique
-* easily track which tasks blown and which got interrupted and why
+* Extract ideas from Pomodoro technique
+* Easily track which tasks blown and which got interrupted and why
 * Arduino: visually display time (tomato)
 * Arduino: tap the tomato if the task gets interrupted (i.e. the phone rings)
-* create interface to export to a few useful formats (Excel, Numbers, etc)
-* reports, metrics
+* Create interface to export to a few useful formats (Excel, Numbers, etc)
+* Reports, Metrics, Budget
 
 h2. Pomodoro Technique
 
@@ -104,17 +104,18 @@ h2. Further reading
 * "Mustache TextMate Bundle":http://github.com/defunkt/Mustache.tmbundle
 * "Rails3Template":http://github.com/dcrec1/rails3_template
 
+
 h2. Useful information
 
 * "Tomato Timer web app":http://www.tomato-timer.com/
-* "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer
+* "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer 
 
 
-h2. Contributors
+h2. Contributors/Developer notes
 
-Marco Antonio Gonzalez Junior - kayaman@baurets.net
+	I would like to thank Sam Goldstein for the initial inspiration. And for sharing his ideas.
 
-Please be welcome. Throw your tomato! :)
+	Please be welcome. Throw your tomato! :)
 
 
 h2. License

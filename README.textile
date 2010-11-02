@@ -4,15 +4,17 @@ h1. PomoTrap
 	
 	I want to work on specific little tasks. And, in theory, do not get interrupted.
 	
-	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Techique. It works fine for people working alone or in small teams.
+	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Techique. Providing an easy way to track record of what made you change your way.
+	
+	It works fine for people working alone or in small teams.
 	
 	This is almost zero process. We have a timer, things to do, will to do things, and lots of doing.
 	
-	Based on your 'sprint' planning, select a few tasks in the 'morning'. Prioritize and decide how much work will be done. (velocity)
+	Based on your 'sprint' planning, select a few tasks in the 'morning'. Prioritize and decide how much work will be done. (individual velocity)
 	
 	Input the tasks in the system. Start the first task by moving the Tomato (timer)!
 	
-    You will be warned when the time finishes. If you get interrupted, tap the tomato, the clock will halt and the system will prompt you for the reason of the interruption when you get back.
+    You will be warned when the time for the task finishes. If you get interrupted, tap the tomato, the clock will halt and the system will prompt you for the reason of the interruption when you get back.
 
 	After one task. You do one short break. Every 4 tasks. You do a longer break.
 	

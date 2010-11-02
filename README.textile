@@ -100,7 +100,7 @@ h2. Further reading
 * "http://dorkbotpdx.org/search/node/txtzyme":http://dorkbotpdx.org/search/node/txtzyme
 * "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
 
-* "Mustache":http://github.com/defunkt/mustache
+* "Mustache":http://github.com/defunkt/mustache => pure Ruby + HTML + JavaScript
 * "Mustache TextMate Bundle":http://github.com/defunkt/Mustache.tmbundle
 * "Rails3Template":http://github.com/dcrec1/rails3_template
 

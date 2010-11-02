@@ -74,11 +74,13 @@ h2. Pomodoro Technique
 ** Time as duration. Unpredictable. Anxiety.
 ** Time as succession. Non-overlapping.
 
+* Dreaming
+** REM. Rapid eye movement. 
 
 
 h2. Further reading
 
-* "Pomodoro technique":http://www.pomodorotechnique.com/
+* "Pomodoro Technique":http://www.pomodorotechnique.com/
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
 * "Ruby Arduino Development":http://github.com/atduskgreg/rad
 * "RAD Rubyforge":http://rad.rubyforge.org/
@@ -86,6 +88,7 @@ h2. Further reading
 * "Martin Fowler Explains Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/martin_fowler_explains_txtzyme
 * "Shell Programming with Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/shell_programming_with_txtzyme
 * "http://dorkbotpdx.org/search/node/txtzyme":http://dorkbotpdx.org/search/node/txtzyme
+* "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
 
 h2. Useful information
 
@@ -93,7 +96,7 @@ h2. Useful information
 * "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer
 
 
-h3. Developer notes
+h2. Developer notes
 
 kayaman@baurets.net
 

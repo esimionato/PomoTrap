@@ -4,7 +4,7 @@ h1. PomoTrap
 	
 	I want to work on specific little tasks. And, in theory, do not get interrupted.
 	
-	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Techique. Providing an easy way to track record of what made you change your way.
+	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Technique. Providing an easy way to track record of what made you change your way.
 	
 	It works fine for people working alone or in small teams.
 	
@@ -66,6 +66,16 @@ h2. Pomodoro Technique
 ** Conditioned and unconditioned reflexes. Training. Stimuli.
 ** Left Brain: experiences, rational. Right Brain: intuition, dreams, ideas.
 ** Savant. Idiot savant. Knowing idiot. Right hemisphere compensation.
+** Hyperactivity. Small breaks every half hour and not more than 40-hour/week work schedule.
+** The working memory is limited.
+** Information storage: short term: - as sound; long term: semantically.
+
+* Time 
+** Time as duration. Unpredictable. Anxiety.
+** Time as succession. Non-overlapping.
+
+
+
 
 h2. Further reading
 

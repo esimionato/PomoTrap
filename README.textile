@@ -87,7 +87,7 @@ activity at a time.
 Skalman immediately goes to sleep. :) 
 
 
-** h2. Further reading
+h2. Further reading
 
 * "Pomodoro Technique":http://www.pomodorotechnique.com/
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506

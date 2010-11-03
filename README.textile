@@ -20,13 +20,13 @@ h1. PomoTrap
 	After one task. You do one short break. Every 4 tasks. You do a longer break.
 	
 	Each person knows how much tasks can be done in one day. 
-
+	
 
 h2. Briefing
 
-* time trap ideas from "timetrap":http://github.com/samg/timetrap
-* add feed planning with little tasks (25 minutes) (timer)
-* Extract ideas from Pomodoro technique
+* Extract ideas from the Pomodoro Technique
+* Time trap ideas from "timetrap":http://github.com/samg/timetrap
+* Add feed planning with little tasks (25 minutes) (timer)
 * Easily track which tasks blown and which got interrupted and why
 * Arduino: visually display time (tomato)
 * Arduino: tap the tomato if the task gets interrupted (i.e. the phone rings)
@@ -38,6 +38,7 @@ h2. Pomodoro Technique
 * The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. 
 * It feels sort of like being a single-person team doing 25-minute iterations. 
 
+ 
 ** Tomato-shaped timer
 ** One activity at a time
 ** Time boxed activities
@@ -87,7 +88,7 @@ activity at a time.
 ** It doesn't matter wether the monster is just about to devour Skalman and his best friends. If the clock says it's time to sleep, then 
 Skalman immediately goes to sleep. :) 
 
-* Context
+
 ** Flow: clear goals, concentration and focus. Flow is a state of creativity. But it is not compatible with overview.
 ** Arousal is a state of heightened physiological activity. I don’t need the peaks, and I definitively don’t want the troughs. I want to have a sustainable pace.
 ** Procrastination
@@ -110,7 +111,6 @@ Skalman immediately goes to sleep. :)
 *** Processing - convert the raw data into information
 *** Visualizing - organize the information in a way that helps seeing how to improve the process.
 ** Deming-Shewhart Cycle. PDCA. Plan-Do-Check-Act.
-
 ** Tools
 *** To Do Today
 *** Activity Inventory
@@ -129,11 +129,35 @@ Skalman immediately goes to sleep. :)
 ** Self centered observation. Incremental upgrading.
 ** Every failure can be transformed into an insight.
 
+* Interruptions
+** Sustainable pace. Three hats. Recreation hat, working hat and strategy hat. Timebox schedule interleaves prioritize, focus and rest. 
+
+** Interruptions strategy
+** Internal - Accept, record and continue (unplanned & urgent). Inverted dependency (Depend on the schedule an not respond to urgent instincts)
+** External
+** 
+
+** “Once a Pomodoro begins, it has to ring.”
+** Atomic
+
+
+h2. Benchmark
+
+* "Focus Booster":http://www.focusboosterapp.com/
+* "Pomodairo":http://code.google.com/p/pomodairo/
+* "Timeboxed":http://www.macmation.com/TimeBoxed
+* "Pomodori":https://github.com/reborg/pomodori
+
 
 h2. Further reading
 
 * "Pomodoro Technique":http://www.pomodorotechnique.com/
+* "Pomodoro Technique":http://en.wikipedia.org/wiki/Pomodoro_Technique
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
+
+* "Where do These People Get Their (Unoriginal) Ideas?":http://www.joelonsoftware.com/articles/fog0000000068.html
+* "Keeping the day moving on.":http://amasses.wordpress.com/2009/12/01/keeping-the-day-moving-on/
+
 * "Ruby Arduino Development":http://github.com/atduskgreg/rad
 * "RAD Rubyforge":http://rad.rubyforge.org/
 * "Teensy":http://www.pjrc.com/teensy/

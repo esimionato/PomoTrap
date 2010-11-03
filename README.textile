@@ -134,11 +134,14 @@ Skalman immediately goes to sleep. :)
 
 ** Interruptions strategy
 ** Internal - Accept, record and continue (unplanned & urgent). Inverted dependency (Depend on the schedule an not respond to urgent instincts)
+*** “Once a Pomodoro begins, it has to ring.”
+*** Atomic. Indivisible. If you leave it then you have to void it. It will not count.
+*** Constant internal interruptions happen to new practitioners. 
 ** External
-** 
+*** Protect the Pomodoro. 
+*** Visualize and the intensify. Write down all external interruptions so them can be thought of in a future planning.
 
-** “Once a Pomodoro begins, it has to ring.”
-** Atomic
+
 
 
 h2. Benchmark

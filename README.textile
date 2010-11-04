@@ -168,6 +168,8 @@ h2. Drafts
 ## Add value
 # Process/Visualize
 
+Note: Stages 2-3 do repeat.
+
 	*Glossary*
 	
 	1 pomodoro = 1 25-minutes effort - not mandatory
@@ -183,6 +185,7 @@ h2. Benchmark
 * "Pomodairo":http://code.google.com/p/pomodairo/
 * "Timeboxed":http://www.macmation.com/TimeBoxed
 * "Pomodori":https://github.com/reborg/pomodori
+* "Pomodoro by ugolandini":http://pomodoro.ugolandini.com/
 
 
 h2. Further reading

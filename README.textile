@@ -191,6 +191,7 @@ h2. Benchmark
 h2. Further reading
 
 * "Pomodoro Technique":http://www.pomodorotechnique.com/
+* "The Pomodoro Technique":http://www.scribd.com/doc/36672142/The-Pomodoro-Technique
 * "Pomodoro Technique":http://en.wikipedia.org/wiki/Pomodoro_Technique
 * "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
 

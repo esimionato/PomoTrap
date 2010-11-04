@@ -139,9 +139,35 @@ Skalman immediately goes to sleep. :)
 *** Constant internal interruptions happen to new practitioners. 
 ** External
 *** Protect the Pomodoro. 
-*** Visualize and the intensify. Write down all external interruptions so them can be thought of in a future planning.
+*** Visualize and the intensify. Write down all external interruptions so them can be thought of in a future planning. Interruption notation.
+** Aware of the extent. Too many unplanned activities means qualitative error.
+
+* Estimates
+
+** Measurements against guesses. Tracking and recording are the ways to measurement.
+** Estimates on your Activity Inventory sheet.
+** Wisdom of Crowds
+** Activity size
+** Choose
 
 
+h2. Drafts
+
+	*Stages*
+
+# Choose - select one ore more activities from ~Backlog~ to ~To Do Today~ 
+# Start
+## may have internal interruption - take note to ~Unplanned & Urgent~ and continue
+## may have external interruption - register the reason, void the pomodoro 
+## may end successfully
+## must have a 5 minutes recreational break
+
+
+	*Glossary*
+	
+	1 pomodoro = 1 25-minutes effort 
+	1 activity spans one or more pomodoros
+	
 
 
 h2. Benchmark

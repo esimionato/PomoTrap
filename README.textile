@@ -49,7 +49,7 @@ h2. Pomodoro Technique
 ** Get rewarded with a break.
 ** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one 
 activity at a time.
-** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Do wind up the clock.
+** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Just wind up the clock!
 ** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
 ** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating.
 ** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
@@ -117,7 +117,7 @@ Skalman immediately goes to sleep. :)
 *** Records
 ** Prospective memory. Recurrently reassess which activity is most important.
 ** Now list. Highlight current activity.
-** Break. After 25 minutes, immediately mark the activity done and take a break (three to five minutes)
+** Break. After 25 minutes, immediately mark the period done and take a break (five minutes)
 ** Detach. During the break, don't think about the previous or next activity.
 ** Set break. Every four activities. 15 to 30 minutes.
 ** Abstract time unit. Spend your time of effort in the best possible way that you can. (The clock is invisible)
@@ -146,11 +146,11 @@ Skalman immediately goes to sleep. :)
 
 ** Measurements against guesses. Tracking and recording are the ways to measurement.
 ** Estimates on your Activity Inventory sheet.
-** Wisdom of Crowds
-** Activity size
+** Wisdom of Crowds - average
+** Activity size - lengths are not mandatory
 ** Choose
 ** Yesterday's weather. Tomorrow will be like today. 
-** Administratives pomodoros. Planned intervals to solve emails and etc.
+** Administrative pomodoros. Planned intervals to solve emails, personal stuff and etc.
 ** When you keep your clock visible on the desk, your teammates become aware of your technique and subconsciously more inclined to respect it.
 
 
@@ -159,18 +159,21 @@ h2. Drafts
 	*Stages*
 
 # Choose - select one ore more activities from **Backlog** to **To Do Today** 
-# Start
+# Start/Track
 ## may have internal interruption - take note to **Unplanned & Urgent** and continue
 ## may have external interruption - register the reason, **void** the pomodoro 
 ## may end successfully - mark **done**
 ## must have a 5 minutes recreational **break**
-
+# Record
+## Add value
+# Process/Visualize
 
 	*Glossary*
 	
 	1 pomodoro = 1 25-minutes effort - not mandatory
 	1 activity spans one or more pomodoros
 	3 small breaks followed by one longer break - not mandatory
+	Activity Inventory == Backlog
 	
 
 

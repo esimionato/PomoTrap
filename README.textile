@@ -149,6 +149,9 @@ Skalman immediately goes to sleep. :)
 ** Wisdom of Crowds
 ** Activity size
 ** Choose
+** Yesterday's weather. Tomorrow will be like today. 
+** Administratives pomodoros. Planned intervals to solve emails and etc.
+** When you keep your clock visible on the desk, your teammates become aware of your technique and subconsciously more inclined to respect it.
 
 
 h2. Drafts
@@ -158,15 +161,16 @@ h2. Drafts
 # Choose - select one ore more activities from **Backlog** to **To Do Today** 
 # Start
 ## may have internal interruption - take note to **Unplanned & Urgent** and continue
-## may have external interruption - register the reason, void the pomodoro 
-## may end successfully
-## must have a 5 minutes recreational break
+## may have external interruption - register the reason, **void** the pomodoro 
+## may end successfully - mark **done**
+## must have a 5 minutes recreational **break**
 
 
 	*Glossary*
 	
-	1 pomodoro = 1 25-minutes effort 
+	1 pomodoro = 1 25-minutes effort - not mandatory
 	1 activity spans one or more pomodoros
+	3 small breaks followed by one longer break - not mandatory
 	
 
 

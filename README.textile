@@ -155,9 +155,9 @@ h2. Drafts
 
 	*Stages*
 
-# Choose - select one ore more activities from ~Backlog~ to ~To Do Today~ 
+# Choose - select one ore more activities from **Backlog** to **To Do Today** 
 # Start
-## may have internal interruption - take note to ~Unplanned & Urgent~ and continue
+## may have internal interruption - take note to **Unplanned & Urgent** and continue
 ## may have external interruption - register the reason, void the pomodoro 
 ## may end successfully
 ## must have a 5 minutes recreational break

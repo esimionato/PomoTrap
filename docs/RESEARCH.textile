@@ -1,0 +1,226 @@
+h1. Research material
+
+	Plan. Select. Focus. Report.
+	
+	I want to work on specific little tasks. And, in theory, do not get interrupted.
+	
+	This is a simple project intended to increase personal productivity. The goal is to support and mechanize the Pomodoro Technique. 
+	Providing an easy way to track record of what made you change your way.
+	
+	It works fine for people working alone or in small teams.
+	
+	This is almost zero process. We have a timer, things to do, will to do things, and lots of doing.
+	
+	Based on your 'sprint' planning, select a few tasks in the 'morning'. Prioritize and decide how much work will be done. (individual velocity)
+	
+	Input the tasks in the system. Start the first task by moving the Tomato (timer)!
+	
+    You will be warned when the time for the task finishes. If you get interrupted, tap the tomato, the clock will halt and the system will prompt you for the reason of the interruption when you get back.
+
+	After one task. You do one short break. Every 4 tasks. You do a longer break.
+	
+	Each person knows how much tasks can be done in one day. 
+	
+
+h2. Briefing
+
+* Extract ideas from the Pomodoro Technique
+* Time trap ideas from "timetrap":http://github.com/samg/timetrap
+* Add feed planning with little tasks (25 minutes) (timer)
+* Easily track which tasks blown and which got interrupted and why
+* Arduino: visually display time (tomato)
+* Arduino: tap the tomato if the task gets interrupted (i.e. the phone rings)
+* Create interface to export to a few useful formats (Excel, Numbers, etc)
+* Reports, Metrics, Budget
+
+h2. Pomodoro Technique
+
+* The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. 
+* It feels sort of like being a single-person team doing 25-minute iterations. 
+
+ 
+** Tomato-shaped timer
+** One activity at a time
+** Time boxed activities
+** The Timer: 
+*** Start to focus. 
+*** Wind up a timer which will wake you up later. 
+*** Then you can reanalyze: is the activity that you focused on still the one that matters most?
+** Get rewarded with a break.
+** Sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one 
+activity at a time.
+** Gesture-oriented. The mental transition between work and breaks is too slow. Conditioned reflexes are great tools. Just wind up the clock!
+** Mistakes get repeated over and over. Record, Process and Visualize. Daily retrospective.
+** The effort that one task takes is underestimated. Quantity estimating. The scope of a task is underestimated. Quality estimating.
+** Your mind is invaded by competing thoughts. Write them down under: Unplanned & Urgent. 
+** A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple.
+** You forget about the wholeness while in the flow. The break gives the brain a chance to absorb what you saw during the last task, and you will probably have at least three new ideas.
+** Estimates are seen as promises. Cut off the unnecessary anxiety created by yourself and your co-workers. After 25 minutes of effort, you can focus on your activities even when you're close to a deadline.
+** The process is not based on facts. Tracking. Daily retrospective. (metrics, completed, blown, interruptions, etc)
+** Someone pushes work on you. The fight between "have-to" and "want-to" is known as the "terrible two". By actively selecting activities instead of getting them pushed, you increase your personal commitment.
+** Perfectionism prevents action. 
+** Fear of failure or criticism is a mental impediment.
+
+* The Brain
+** The Brain Stack: stem, limbic system, cortex, frontal lobe
+** Brain Performance: 2% of body weight, 20% of the oxygen
+** Rhythm: It’s the amount of time until the next break. The next point of rest. This is the break rhythm.
+** Superstitious people are focus enablers. By always preparing with the same gestures and routines, the brain will self configure into the best mode to solve a particular kind of task.
+** Conditioned and unconditioned reflexes. Training. Stimuli.
+** Left Brain: experiences, rational. Right Brain: intuition, dreams, ideas.
+** Savant. Idiot savant. Knowing idiot. Right hemisphere compensation.
+** Hyperactivity. Small breaks every half hour and not more than 40-hour/week work schedule.
+** The working memory is limited.
+** Information storage: short term: as sound; long term: semantically.
+
+* Time 
+** Time as duration. Unpredictable. Anxiety.
+** Time as succession. Non-overlapping.
+
+* Dreaming
+** REM. Rapid eye movement. Brain replay our daily impressions. Assembles memory, removing least important emotional parts.
+** Relational memory. Absorbing. Transitive inference. Premise pairs.
+
+* Skalman
+** Genius with technology, logic and chemistry. 
+** Food-and-Sleep Clock inventor.
+** Turtle-shaped Swedish cartoon character. Shell man.
+** It doesn't matter wether the monster is just about to devour Skalman and his best friends. If the clock says it's time to sleep, then 
+Skalman immediately goes to sleep. :) 
+
+
+** Flow: clear goals, concentration and focus. Flow is a state of creativity. But it is not compatible with overview.
+** Arousal is a state of heightened physiological activity. I don’t need the peaks, and I definitively don’t want the troughs. I want to have a sustainable pace.
+** Procrastination
+*** Someone pushes something against your will
+*** Perfectionism
+*** Fear of failure or criticism
+** Heroism and Guilt. Overtime. Our brains need regular recreation time --both short breaks during the workday and long breaks every day from the whole office environment.
+** Regulatory process. Regulator. Relevant metrics. 
+** Good decisions balance between awareness and intuition. Thin slicing is when we think without thinking. Experience, training, and knowledge. Metrics to improve us.
+** Embrace change.
+** Paradox of choice: creates anxiety, steals time and focus. We need a rhythm such as choosing-working-break, choosing-working-break, and so on.
+
+* Mechanics
+
+** Learning the technique is simple. Choose the highest-priority activity on the To Do Today sheet, wind up the clock to 25 minutes, and start focusing on that activity and only that one. 
+** Stages
+*** Planning - get tasks/chores from activity inventory/backlog and write them on today's To Do sheet. This is the commitment for the day.
+*** Tracking - during each 25-minute timebox you collect a small amount of process metrics. You may get interrupted.
+*** Recording - at the end of the day you file your daily observations.
+*** Processing - convert the raw data into information
+*** Visualizing - organize the information in a way that helps seeing how to improve the process.
+** Deming-Shewhart Cycle. PDCA. Plan-Do-Check-Act.
+** Tools
+*** To Do Today
+*** Activity Inventory
+*** Records
+** Prospective memory. Recurrently reassess which activity is most important.
+** Now list. Highlight current activity.
+** Break. After 25 minutes, immediately mark the period done and take a break (five minutes)
+** Detach. During the break, don't think about the previous or next activity.
+** Set break. Every four activities. 15 to 30 minutes.
+** Abstract time unit. Spend your time of effort in the best possible way that you can. (The clock is invisible)
+** Recording and processing.
+** Kaizen. "To change over time for that which is better." Continuous improvement.
+*** Do I need smaller activities?
+*** Am I bothered by a recurring distraction?
+*** Do I have unnecessary overhead in my standardized activities and personal process?
+** Self centered observation. Incremental upgrading.
+** Every failure can be transformed into an insight.
+
+* Interruptions
+** Sustainable pace. Three hats. Recreation hat, working hat and strategy hat. Timebox schedule interleaves prioritize, focus and rest. 
+
+** Interruptions strategy
+** Internal - Accept, record and continue (unplanned & urgent). Inverted dependency (Depend on the schedule an not respond to urgent instincts)
+*** “Once a Pomodoro begins, it has to ring.”
+*** Atomic. Indivisible. If you leave it then you have to void it. It will not count.
+*** Constant internal interruptions happen to new practitioners. 
+** External
+*** Protect the Pomodoro. 
+*** Visualize and the intensify. Write down all external interruptions so them can be thought of in a future planning. Interruption notation.
+** Aware of the extent. Too many unplanned activities means qualitative error.
+
+* Estimates
+
+** Measurements against guesses. Tracking and recording are the ways to measurement.
+** Estimates on your Activity Inventory sheet.
+** Wisdom of Crowds - average
+** Activity size - lengths are not mandatory
+** Choose
+** Yesterday's weather. Tomorrow will be like today. 
+** Administrative pomodoros. Planned intervals to solve emails, personal stuff and etc.
+** When you keep your clock visible on the desk, your teammates become aware of your technique and subconsciously more inclined to respect it.
+
+
+h2. Drafts
+
+	*Stages*
+
+# Choose - select one ore more activities from **Backlog** to **To Do Today** 
+# Start/Track
+## may have internal interruption - take note to **Unplanned & Urgent** and continue
+## may have external interruption - register the reason, **void** the pomodoro 
+## may end successfully - mark **done**
+## must have a 5 minutes recreational **break**
+# Record
+## Add value
+# Process/Visualize
+
+Note: Stages 2-3 do repeat.
+
+	*Glossary*
+	
+	1 pomodoro = 1 25-minutes effort - not mandatory
+	1 activity spans one or more pomodoros
+	3 small breaks followed by one longer break - not mandatory
+	Activity Inventory == Backlog
+	
+
+
+h2. Benchmark
+
+* "Focus Booster":http://www.focusboosterapp.com/
+* "Pomodairo":http://code.google.com/p/pomodairo/
+* "Timeboxed":http://www.macmation.com/TimeBoxed
+* "Pomodori":https://github.com/reborg/pomodori
+* "Pomodoro by ugolandini":http://pomodoro.ugolandini.com/
+
+
+h2. Further reading
+
+* "Pomodoro Technique":http://www.pomodorotechnique.com/
+* "The Pomodoro Technique":http://www.scribd.com/doc/36672142/The-Pomodoro-Technique
+* "Pomodoro Technique":http://en.wikipedia.org/wiki/Pomodoro_Technique
+* "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
+
+* "Where do These People Get Their (Unoriginal) Ideas?":http://www.joelonsoftware.com/articles/fog0000000068.html
+* "Keeping the day moving on.":http://amasses.wordpress.com/2009/12/01/keeping-the-day-moving-on/
+
+* "Ruby Arduino Development":http://github.com/atduskgreg/rad
+* "RAD Rubyforge":http://rad.rubyforge.org/
+* "Teensy":http://www.pjrc.com/teensy/
+* "Martin Fowler Explains Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/martin_fowler_explains_txtzyme
+* "Shell Programming with Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/shell_programming_with_txtzyme
+* "http://dorkbotpdx.org/search/node/txtzyme":http://dorkbotpdx.org/search/node/txtzyme
+* "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
+
+
+h2. Useful information
+
+* "Tomato Timer web app":http://www.tomato-timer.com/
+* "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer 
+
+
+h2. Contributors/Developer notes
+
+	I would like to thank Sam Goldstein for the initial inspiration. And for sharing his ideas.
+
+	Please be welcome. Throw your tomato! :)
+
+
+h2. License
+
+* The Pomodoro Technique was developed by Francesco Cirillo. Its own license information can be found "here":http://www.pomodorotechnique.com/license.html
+* PomoTrap is released/developed under the Open Source Initiative OSI - The MIT License/Licensing. "#":http://www.opensource.org/licenses/mit-license.php

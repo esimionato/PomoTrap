@@ -7,7 +7,7 @@ h1. PomoTrap
 	* track rest and recreational periods
 	* provide metrics, reports, estimates
 	
-	The secret is using a device to act as a timer and interact with the system. This is gesture-oriented. Conditioned reflexes are great tools. Just wind up the clock!
+	The secret is using a device to act as a timer and interact with the system. This is gesture-oriented because conditioned reflexes are great tools. Just wind up the clock!
 
 
 h2. Pomodoro Technique
@@ -15,71 +15,9 @@ h2. Pomodoro Technique
 * The Pomodoro Technique is similar to Agile methods such as Scrum and XP but at a “micro” level. 
 * It feels sort of like being a single-person team doing 25-minute iterations. 
 
-h2. Drafts
-
-	*Stages*
-
-# Choose - select one ore more activities from **Backlog** to **To Do Today** 
-# Start/Track
-## may have internal interruption - take note to **Unplanned & Urgent** and continue
-## may have external interruption - register the reason, **void** the pomodoro 
-## may end successfully - mark **done**
-## must have a 5 minutes recreational **break**
-# Record
-## Add value
-# Process/Visualize
-
-Note: Stages 2-3 do repeat.
-
-	*Glossary*
-	
-	1 pomodoro = 1 25-minutes effort - not mandatory
-	1 activity spans one or more pomodoros
-	3 small breaks followed by one longer break - not mandatory
-	Activity Inventory == Backlog
-	
-
-
-h2. Benchmark
-
-* "Focus Booster":http://www.focusboosterapp.com/
-* "Pomodairo":http://code.google.com/p/pomodairo/
-* "Timeboxed":http://www.macmation.com/TimeBoxed
-* "Pomodori":https://github.com/reborg/pomodori
-* "Pomodoro by ugolandini":http://pomodoro.ugolandini.com/
-
-
-h2. Further reading
-
-* "Pomodoro Technique":http://www.pomodorotechnique.com/
-* "The Pomodoro Technique":http://www.scribd.com/doc/36672142/The-Pomodoro-Technique
-* "Pomodoro Technique":http://en.wikipedia.org/wiki/Pomodoro_Technique
-* "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506
-* "Where do These People Get Their (Unoriginal) Ideas?":http://www.joelonsoftware.com/articles/fog0000000068.html
-* "Keeping the day moving on.":http://amasses.wordpress.com/2009/12/01/keeping-the-day-moving-on/
-* "Ruby Arduino Development":http://github.com/atduskgreg/rad
-* "RAD Rubyforge":http://rad.rubyforge.org/
-* "Teensy":http://www.pjrc.com/teensy/
-* "Martin Fowler Explains Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/martin_fowler_explains_txtzyme
-* "Shell Programming with Txtzyme":http://dorkbotpdx.org/blog/wardcunningham/shell_programming_with_txtzyme
-* "http://dorkbotpdx.org/search/node/txtzyme":http://dorkbotpdx.org/search/node/txtzyme
-* "The Simplest Thing that Could Possibly Work":http://www.artima.com/intv/simplest.html
-
-
-h2. Useful information
-
-* "Tomato Timer web app":http://www.tomato-timer.com/
-* "The Pomodoro Technique Timer Group":http://groups.google.com/group/pomodorotechnique-timer 
-
-
-h2. Contributors/Developer notes
-
-	I would like to thank Sam Goldstein for the initial inspiration. And for sharing his ideas.
-
-	Please be welcome. Throw your tomato! :)
 
 
 h2. License
 
 * The Pomodoro Technique was developed by Francesco Cirillo. Its own license information can be found "here":http://www.pomodorotechnique.com/license.html
-* PomoTrap is released/developed under the Open Source Initiative OSI - The MIT License/Licensing. "#":http://www.opensource.org/licenses/mit-license.php
+* PomoTrap is developed under the "Open Source Initiative":http://www.opensource.org/licenses/mit-license.php OSI - The MIT License.

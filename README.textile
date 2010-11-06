@@ -32,7 +32,6 @@ h3. Modern ideas
 	* Published by The Pragmatic Programmers
 	* Provides insights from Agile Software Methodologies and Cognitive Science research
 
-
 h3. My ideas
 
 	* 25-minutes size: lengths are not mandatory, configurable

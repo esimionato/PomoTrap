@@ -24,10 +24,14 @@ h3. The original idea
 	* Refine the estimation process, both in qualitative and quantitative terms
 	* Improve your work or study process
 	* Strengthen your determination to keep on applying yourself in the face of complex situations
+	* Cut off procrastination
 
 h3. Modern ideas
 
-	The book 'Pomodoro Technique Illustrated' was written by Staffan Noteberg. It was released on December of 2009. The book was published by The Pragmatic Programmers.
+	The book 'Pomodoro Technique Illustrated' was written by Staffan Noteberg. 
+	* Released on December 2009
+	* Published by The Pragmatic Programmers
+	* Provides insights from Agile Software Methodologies and Cognitive Science research
 
 
 h3. My ideas
@@ -35,7 +39,7 @@ h3. My ideas
 	* 25-minutes size: lengths are not mandatory, configurable
 	* Pair programming
 	* Visibility
-	* Intranet or Corporate network
+	* Alone, Intranet or Corporate network
 	* the _Tomato_ also have a button you can tap it, in order to void the Pomodoro (when an external or fatal interruption occurs)
 	* Integration with existing project management services
 

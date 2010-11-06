@@ -15,7 +15,7 @@ h2. Pomodoro Technique
 h3. The original idea
 
 	The Pomodoro Technique was developed by Francesco Cirillo in the 1990s. It was published on 2006. Its goals are:
-	* Alleviate anxiety linked the feeling of _being late_
+	* Alleviate anxiety from the feeling of _being late_
 	* Keep a sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
 	* Enhance focus and concentration by cutting down on interruptions
 	* Increase awareness of your decisions

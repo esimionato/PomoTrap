@@ -1,12 +1,10 @@
 h1. PomoTrap
 
 	PomoTrap is a simple time management tool. Its goal is to enhance personal focus and productivity. It's based on the Pomodoro Technique, and can do the following:
-	
-	* track periods of work and relate it to activities on real projects
-	* track interruptions
-	* track rest and recreational periods
-	* provide metrics, reports, estimates
-	
+	* Track periods of work and relate it to activities on real projects
+	* Track interruptions
+	* Track rest and recreational periods
+	* Provide metrics, reports, estimates
 	The secret is to have a device to act as a timer and interact with the system. This is gesture-oriented. Conditioned reflexes are great tools. Just wind up the clock!
 
 
@@ -17,7 +15,6 @@ h2. Pomodoro Technique
 h3. The original idea
 
 	The Pomodoro Technique was developed by Francesco Cirillo in the 1990s. It was published on 2006. Its goals are:
-	
 	* Alleviate anxiety linked the feeling of _being late_
 	* Keep a sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
 	* Enhance focus and concentration by cutting down on interruptions
@@ -30,23 +27,31 @@ h3. The original idea
 
 h3. Modern ideas
 
+	The book 'Pomodoro Technique Illustrated' was written by Staffan Noteberg. It was released on December of 2009. The book was published by The Pragmatic Programmers.
+
 
 h3. My ideas
 
-	* Activity size - lengths are not mandatory
+	* 25-minutes size: lengths are not mandatory, configurable
+	* Pair programming
+	* Visibility
+	* Intranet or Corporate network
+	* the _Tomato_ also have a button you can tap it, in order to void the Pomodoro (when an external or fatal interruption occurs)
+	* Integration with existing project management services
 
 h2. Hardware
 
 h3. The need of an external physical device
 
-	* Gesture-oriented. 
-	** Focus Enabler. By always preparing with the same gestures and routines, the brain will self configure into the best mode to solve a particular kind of task. Like superstitious people. 
-	** Conditioned reflexes are great tools.
+	* Gesture-oriented. Conditioned reflexes are great tools.
+	* Focus Enabler. By always preparing with the same gestures and routines, the brain will self configure into the best mode to solve a particular kind of task. Like superstitious people. 
 	* When you keep your clock visible on the desk, your teammates become aware of your technique and subconsciously more inclined to respect it.
 	
 h3. Open source hardware?
 
 	I don't know how to do it yet! I will start by the software. And keep researching. 
+	Maybe we can have many implementations to the device. iPhone, USB, an holographic panel. Who knows?
+	I have received a few tips. THANK YOU!
 
 h2. License
 

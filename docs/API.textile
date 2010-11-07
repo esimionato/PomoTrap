@@ -121,13 +121,13 @@ h4. RESPONSE Example
 	                "reason": "Call mom.",
 	                "occurred_at": "2010-11-12T09:09:15+00:00",
 	                "external": false,
-	                "assign_task": true 
+	                "assigned_task": 120304040506 
 	            },
 	            {
 	                "reason": "The ClientXPTO called for an update on Bug 123456.",
 	                "occurred_at": "2010-11-12T09:09:20+00:00",
 	                "external": true,
-	                "assign_task": false 
+	                "assigned_task": null 
 	            } 
 	        ],
 	        "finished_at": "2010-11-12T09:09:20+00:00",

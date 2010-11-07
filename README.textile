@@ -1,12 +1,12 @@
 h1. PomoTrap
 
 	PomoTrap is a simple time management tool. Its goal is to enhance personal focus and productivity. It's based on the Pomodoro Technique, and can do the following:
-	* Track periods of work and relate it to activities on real projects
+	* Track periods of effort and relate it to activities on real projects
 	* Track interruptions
 	* Track rest and recreational periods
+	* Create automatic **To Do** listings
 	* Provide metrics, reports, estimates
 	The secret is to have a device to act as a timer and interact with the system. This is gesture-oriented. Conditioned reflexes are great tools. Just wind up the clock!
-
 
 h2. Pomodoro Technique
 
@@ -14,7 +14,7 @@ h2. Pomodoro Technique
 
 h3. The original idea
 
-	The Pomodoro Technique was developed by Francesco Cirillo in the 1990s. It was published on 2006. Its goals are to:
+	The "Pomodoro Technique":http://www.pomodorotechnique.com/ was developed by Francesco Cirillo in the 1990s. It was published on 2006. Its goals are to:
 	* Alleviate anxiety from the feeling of _being late_
 	* Keep a sustainable pace with the technique rhythm by using short iterations of 25 minutes, by not skipping breaks, and by focusing on one activity at a time.
 	* Enhance focus and concentration by cutting down on interruptions
@@ -27,19 +27,22 @@ h3. The original idea
 
 h3. Modern ideas
 
-	The book 'Pomodoro Technique Illustrated' was written by Staffan Noteberg. 
+	The book "Pomodoro Technique Illustrated":http://www.amazon.com/Pomodoro-Technique-Illustrated-Minutes-Pragmatic/dp/1934356506 was written by Staffan Noteberg. 
 	* Released on December 2009
 	* Published by The Pragmatic Programmers
 	* Provides insights from Agile Software Methodologies and Cognitive Science research
+	* A complex and demanding methodology of working consumes your time. The Pomodoro Technique is ridiculous. So simple. Lightweight.
 
 h3. My ideas
 
 	* 25-minutes size: lengths are not mandatory, configurable
-	* Pair programming
-	* Visibility
-	* Alone, Intranet or Corporate network
+	* Pair Pomodoros. Pair programming.
+	* Visibility. Expose your work. 
+	* Run Alone, Intranet or Corporate network
+	* Administratives Pomodoros. Do your personal stuff.
+	* Team Pomodoros. Synchronize with other teammates.
 	* the _Tomato_ also have a button you can tap it, in order to void the Pomodoro (when an external or fatal interruption occurs)
-	* Integration with existing project management services
+	* Integration with existing project management services (such as PivotalTracker, etc)
 
 h2. Hardware
 

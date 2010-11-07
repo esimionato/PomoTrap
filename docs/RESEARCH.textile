@@ -186,6 +186,7 @@ h2. Benchmark
 * "Timeboxed":http://www.macmation.com/TimeBoxed
 * "Pomodori":https://github.com/reborg/pomodori
 * "Pomodoro by ugolandini":http://pomodoro.ugolandini.com/
+* "Toggl time tracking":http://www.toggl.com
 
 
 h2. Further reading

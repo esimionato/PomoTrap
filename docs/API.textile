@@ -1,0 +1,162 @@
+h1. Pomotrap API Wrapper
+
+h2. _To Do Today_ lists
+
+h3. Create new _To Do Today_
+
+h4. REQUEST
+
+bq.
+<pre>
+	{
+	    "to_do_today": {
+	        "location": "home",
+	        "date": "2010-11-07"
+	    } 
+	}
+</pre>
+
+h2. Tasks
+
+h3. Add _Task_ to _To Do Today_
+
+h4. REQUEST
+
+bq.
+<pre>
+	{
+	    "task": {
+	        "to_do_today": "2010-11-07",
+	        "label": "Scratch them.",
+	        "estimated_effort": null 
+	    } 
+	}
+</pre>
+
+h4. RESPONSE
+
+bq.
+<pre>
+{
+    "data": {
+        "task": 1234567890 
+    } 
+}
+</pre>
+
+h2. Pomodoros
+
+h3. Add _Pomodoro_ to _Task_
+
+h4. REQUEST
+
+bq.
+<pre>
+	{
+	    "pomodoro": {
+	        "task": 1234567890,
+	        "started_at": null
+	    } 
+	}
+</pre>
+
+h4. RESPONSE
+
+bq.
+<pre>
+	{
+	    "data": {
+	        "pomodoro": 1736473647890,
+	        "started_at": "2010-11-12T09:09:10+00:00" 
+	    } 
+	}
+</pre>
+
+h3. Update _Pomodoro_ status (????)
+
+h4. REQUEST
+
+@PUT ......../pomodoros/1736473647890.json@
+
+bq.
+<pre>
+	{
+	    "pomodoro": {
+	        "finished_at": null
+	    } 
+	}
+</pre>
+
+
+h2. Interruptions
+
+h3. Register Interruption
+
+h4. REQUEST Examples
+
+@PUT ......../pomodoros/1736473647890/interruptions.json@
+
+bq. 
+<pre>
+	{
+	    "interruption": {
+	        "reason": "Call mom.",
+	        "external": false,
+	        "assign_task": true 
+	    } 
+	}
+</pre>
+<pre>
+	{
+	    "interruption": {
+	        "reason": "The ClientXPTO called for an update on Bug 123456.",
+	        "external": true,
+	        "assign_task": false 
+	    } 
+	}
+</pre>
+
+h4. RESPONSE Example
+
+bq.
+<pre>
+	{
+	    "data": {
+	        "pomodoro": 1736473647890,
+	        "started_at": "2010-11-12T09:09:10+00:00",
+	        "interruptions": [
+	            {
+	                "reason": "Call mom.",
+	                "occurred_at": "2010-11-12T09:09:15+00:00",
+	                "external": false,
+	                "assign_task": true 
+	            },
+	            {
+	                "reason": "The ClientXPTO called for an update on Bug 123456.",
+	                "occurred_at": "2010-11-12T09:09:20+00:00",
+	                "external": true,
+	                "assign_task": false 
+	            } 
+	        ],
+	        "finished_at": "2010-11-12T09:09:20+00:00",
+	        "status": "finished_by_external_interruption" 
+	    } 
+	}
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

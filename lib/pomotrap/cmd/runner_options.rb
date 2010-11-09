@@ -24,6 +24,10 @@ module Pomotrap
           o.on('-t', '--task [NUMBER]', 'Start pomodoro on prioritized Task') do |task|
             self[:pomodoro] = task || 1
           end
+          
+          o.on('-9', '--kill [NUMBER]', 'Finish Task!') do |task|
+            self[:kill] = task || 1
+          end
 
           o.on_tail('-h', '--help', 'Display this help and exit') do
             puts @opts
@@ -31,8 +35,6 @@ module Pomotrap
           end
 
         end
-
-        # puts @opts.inspect
 
         begin
           @opts.parse!(args)

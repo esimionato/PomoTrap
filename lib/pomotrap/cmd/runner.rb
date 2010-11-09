@@ -13,7 +13,7 @@ module Pomotrap
         if options[:now]
           puts "To Do Today : #{Date.today.strftime("%d/%m/%Y")}" 
           tasks = cli.display_stubbed["tasks"]
-          
+
           prettify_tasks(tasks)
 
           puts "work in progress......"
@@ -25,11 +25,14 @@ module Pomotrap
           puts "Prioritizing task #{options[:pomodoro]}"
           cli.fire_pomodoro(options[:pomodoro])
           puts "work in progress.."
+        elsif options[:kill]
+          puts "Finishing task #{options[:kill]}"
+          puts "work in progress.."
         else
           puts options.opts
         end
       end
-      
+
       TASK_FIELDS = %w(priority id description pomodoros interruptions)
 
       def self.prettify_tasks(values)

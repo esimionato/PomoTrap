@@ -2,7 +2,7 @@ h1. Pomotrap
 
 
 h2. How it works
-
+<pre>
 kayaman$ pomotrap 
 Usage: pomotrap [options]
     -n, --now                        Retrieve To Do Today sheet.
@@ -47,7 +47,7 @@ To Do Today : 09/11/2010
 2 rows in set
 work in progress
 kayaman$ 
-
+</pre>
 
 
 

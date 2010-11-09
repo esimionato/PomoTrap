@@ -3,6 +3,8 @@ require "httparty"
 require "ruby-debug"
 require 'json'
 
+require 'rufus/scheduler'
+
 module Pomotrap
 
   class Client
@@ -11,6 +13,8 @@ module Pomotrap
     format :json
 
     attr_reader :api_token
+    
+    ICON = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'img', 'tomato.jpeg'))
 
     def initialize(token, debug=false)
       @api_token = token
@@ -46,11 +50,33 @@ module Pomotrap
       # 2) assign new pomodoro to task
       # 3)
 
+      notify_about("pomodoro started!")
+      
+      scheduler = Rufus::Scheduler.start_new
+
+      scheduler.every '1m' do
+        notify_about("Pomodoro running")
+      end
+
+      scheduler.in '25m' do
+        notify_about("Pomodoro ended!")
+      end
+
       post 'to_do_todays', {:to_do_today => params} # TODO fixme
     end
 
 
-
+    def notify_about(message)
+      title = 'Pomotrap'
+      case RUBY_PLATFORM
+      when /linux/
+        system "notify-send '#{title}' '#{message}' "
+      when /darwin/
+        system "growlnotify -t '#{title}' -m '#{message}' --image #{Pomotrap::Client::ICON}"
+      when /mswin|mingw|win32/
+        Snarl.show_message title, message, nil
+      end
+    end
 
 
     private
@@ -89,7 +115,7 @@ module Pomotrap
         DateTime.now
       end
     end
-    
+
 
   end
 

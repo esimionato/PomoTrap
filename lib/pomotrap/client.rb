@@ -20,8 +20,6 @@ module Pomotrap
 
     def display
       todays_sheet = find_or_create_to_do_today
-      puts todays_sheet
-
     end
 
     def display_stubbed

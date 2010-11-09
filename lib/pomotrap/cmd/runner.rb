@@ -1,3 +1,5 @@
+require 'ruby-debug'
+
 module Pomotrap
 
   module Cmd
@@ -5,21 +7,19 @@ module Pomotrap
     class Runner
 
       def self.run(args)
-        settings = YAML::load_file("/Users/kayaman/pomotrap.yml") #TODO fixme
-
+        settings = YAML::load_file("#{ENV['HOME']}/pomotrap.yml")
         cli = Pomotrap::Client.new(settings[:token], settings[:debug])
         options = ::Pomotrap::Cmd::RunnerOptions.new(args)
-
         if options[:now]
           puts "To Do Today : #{Date.today.strftime("%d/%m/%Y")}" 
-          tasks = cli.display_stubbed["tasks"]
-
+          tasks = cli.display["to_do_today"]["activities"]
+        debugger
           prettify_tasks(tasks)
 
           puts "work in progress......"
-        elsif options[:task]  
-          puts options[:task].inspect
-          cli.create_task(options[:task])
+        elsif options[:activity]  
+          puts options[:activity].inspect
+          cli.create_task(options[:activity])
           puts "work in progress.."
         elsif options[:pomodoro]
           puts "Prioritizing task #{options[:pomodoro]}"

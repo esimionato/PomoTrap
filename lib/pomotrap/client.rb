@@ -18,7 +18,7 @@ module Pomotrap
     end
 
 
-    def display
+    def activities
       todays_sheet = find_or_create_to_do_today
     end
 
@@ -33,7 +33,11 @@ module Pomotrap
       get "to_do_today/#{today}", {:params => {}}
     end
 
-    def create_task(params={})
+    def create_task(description)
+      today = date("today")
+      to_do_today = get "to_do_today/#{today}", {:params => {}}
+      params = {:activity => {:description => description, :to_do_today_id => to_do_today["to_do_today"]["id"]}}
+      post "to_do_todays/#{today}/activities", params
     end
 
     def fire_pomodoro(params={})

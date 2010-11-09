@@ -11,16 +11,10 @@ module Pomotrap
         cli = Pomotrap::Client.new(settings[:token], settings[:debug])
         options = ::Pomotrap::Cmd::RunnerOptions.new(args)
         if options[:now]
-          puts "To Do Today : #{Date.today.strftime("%d/%m/%Y")}" 
-          tasks = cli.display["to_do_today"]["activities"]
-        debugger
-          prettify_tasks(tasks)
-
-          puts "work in progress......"
+          display(cli.activities["to_do_today"]["activities"])
         elsif options[:activity]  
-          puts options[:activity].inspect
           cli.create_task(options[:activity])
-          puts "work in progress.."
+          display(cli.activities["to_do_today"]["activities"])
         elsif options[:pomodoro]
           puts "Prioritizing task #{options[:pomodoro]}"
           cli.fire_pomodoro(options[:pomodoro])
@@ -31,6 +25,12 @@ module Pomotrap
         else
           puts options.opts
         end
+      end
+      
+      
+      def self.display(activities)
+        puts "To Do Today : #{Date.today.strftime("%d/%m/%Y")}"
+        prettify_tasks(activities)
       end
 
       TASK_FIELDS = %w(priority id description pomodoros interruptions)

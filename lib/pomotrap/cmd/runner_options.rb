@@ -17,7 +17,7 @@ module Pomotrap
             self[:now] = true
           end
           
-          o.on('-n', '--new DESCRIPTION', 'Add a new Activity to To Do Today sheet') do |activity|
+          o.on('-A', '--add DESCRIPTION', 'Add a new Activity to To Do Today sheet') do |activity|
             self[:activity] = activity
           end
 

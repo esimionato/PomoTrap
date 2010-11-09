@@ -15,6 +15,16 @@ h4. REQUEST
 	}
 </pre>
 
+h4. RESPONSE
+
+<pre>
+{
+    "data": {
+        "to_do_today": 1234567890 
+    } 
+}
+</pre>
+
 h2. Tasks
 
 h3. Add _Task_ to _To Do Today_
@@ -25,7 +35,7 @@ h4. REQUEST
 	{
 	    "task": {
 	        "to_do_today": "2010-11-07",
-	        "label": "Scratch them.",
+	        "description": "Scratch them.",
 	        "estimated_effort": null 
 	    } 
 	}
@@ -137,6 +147,33 @@ h4. RESPONSE Example
 </pre>
 
 
+<pre>
+	{
+	    "to_do_today": {
+	        "date": "2010-11-08",
+	        "tasks": [
+	            {		
+									"id": 123232323,
+									"priority": 1,
+	                "description": "Work on Pomotrap feature 0 server side.",
+	                "pomodoros": 2,
+									"completed": false,
+	                "interruptions": 0 
+	            },
+	            {		
+									"id": 2324550998,
+									"priority": 2,
+	                "description": "Work on Pomotrap feature 0 client side.",
+	                "pomodoros": 1,
+									"completed": false,
+	                "interruptions": 0 
+	            }
+	        ],
+				"created_at": "2010-11-12T09:09:00+00:00",
+				"updated_at": "2010-11-12T09:09:10+00:00"
+	    } 
+	}
+</pre>
 
 
 

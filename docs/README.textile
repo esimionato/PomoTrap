@@ -1,0 +1,213 @@
+h1. Pomotrap 
+
+
+h2. How it works
+
+kayaman$ pomotrap 
+Usage: pomotrap [options]
+    -n, --now                        Retrieve To Do Today sheet.
+    -a, --add [DESCRIPTION]          Add a new Task to To Do Today sheet
+    -t, --task [NUMBER]              Start pomodoro on prioritized Task
+    -h, --help                       Display this help and exit
+kayaman$ pomotrap -n
+To Do Today : 09/11/2010
++----------+--------+-------------+-----------+---------------+
+| priority | id     | description | pomodoros | interruptions |
++----------+--------+-------------+-----------+---------------+
+| 1        | 123456 | Task one.   | 0         | 0             |
+| 2        | 123456 | Task two.   | 0         | 0             |
++----------+--------+-------------+-----------+---------------+
+2 rows in set
+work in progress
+kayaman$ pomotrap -a 'Task three.'
+"Task three."
+kayaman$ pomotrap -t 
+Prioritizing task 1
+work in progress
+kayaman$ pomotrap -t 2
+Prioritizing task 2
+work in progress
+kayaman$ i
+Internal interruption on current pomodoro
+kayaman$ e
+External interruption on current pomodoro
+kayaman$ pomotrap -t 2
+Prioritizing task 2
+work in progress
+kayaman$ pomotrap -a 'Task three.'
+"Task three."
+kayaman$ pomotrap -n
+To Do Today : 09/11/2010
++----------+--------+-------------+-----------+---------------+
+| priority | id     | description | pomodoros | interruptions |
++----------+--------+-------------+-----------+---------------+
+| 1        | 123456 | Task one.   | 0         | 0             |
+| 2        | 123456 | Task two.   | 0         | 0             |
++----------+--------+-------------+-----------+---------------+
+2 rows in set
+work in progress
+kayaman$ 
+
+
+
+
+@  $ pomotrap  @
+
+- look for existing To Do Today sheet
+-- if none found: create a blank new one
+-- if found: display sheet information (list tasks) 
+
+@ $ pomotrap --add 'Task three.' @
+
+@ $ pomotrap -t @
+@ $ pomotrap -t 2 @
+
+- _n_: task priority number - default: 1
+obs: when n is used, task priority changes to 1, all other tasks priority = n-1 
+
+
+h2. _To Do Today_ lists
+
+h3. Create new _To Do Today_
+
+<pre>
+	{
+	    "to_do_today": {
+	        "location": "home",
+	        "date": "2010-11-07"
+	    } 
+	}
+</pre>
+
+h2. Tasks
+
+h3. Add _Task_ to _To Do Today_
+
+REQUEST
+<pre>
+	{
+	    "task": {
+	        "to_do_today": "2010-11-07",
+	        "label": "Scratch them.",
+	        "estimated_effort": null 
+	    } 
+	}
+</pre>
+
+RESPONSE
+<pre>
+{
+    "data": {
+        "task": 1234567890 
+    } 
+}
+</pre>
+
+h2. Pomodoros
+
+h3. Add _Pomodoro_ to _Task_
+
+REQUEST
+<pre>
+	{
+	    "pomodoro": {
+	        "task": 1234567890,
+	        "started_at": null
+	    } 
+	}
+</pre>
+
+RESPONSE
+<pre>
+	{
+	    "data": {
+	        "pomodoro": 1736473647890,
+	        "started_at": "2010-11-12T09:09:10+00:00" 
+	    } 
+	}
+</pre>
+
+h3. Update _Pomodoro_ status (????)
+
+REQUEST
+@PUT ......../pomodoros/1736473647890.json@
+<pre>
+	{
+	    "pomodoro": {
+	        "finished_at": null
+	    } 
+	}
+</pre>
+
+
+h2. Interruptions
+
+h3. Register Interruption
+
+h4. REQUEST Examples
+
+bq. 
+@PUT ......../pomodoros/1736473647890/interruptions.json@
+<pre>
+	{
+	    "interruption": {
+	        "reason": "Call mom.",
+	        "external": false,
+	        "assign_task": true 
+	    } 
+	}
+</pre>
+<pre>
+	{
+	    "interruption": {
+	        "reason": "The ClientXPTO called for an update on Bug 123456.",
+	        "external": true,
+	        "assign_task": false 
+	    } 
+	}
+</pre>
+
+h4. RESPONSE Example
+
+bq.
+<pre>
+	{
+	    "data": {
+	        "pomodoro": 1736473647890,
+	        "started_at": "2010-11-12T09:09:10+00:00",
+	        "interruptions": [
+	            {
+	                "reason": "Call mom.",
+	                "occurred_at": "2010-11-12T09:09:15+00:00",
+	                "external": false,
+	                "assign_task": true 
+	            },
+	            {
+	                "reason": "The ClientXPTO called for an update on Bug 123456.",
+	                "occurred_at": "2010-11-12T09:09:20+00:00",
+	                "external": true,
+	                "assign_task": false 
+	            } 
+	        ],
+	        "finished_at": "2010-11-12T09:09:20+00:00",
+	        "status": "finished_by_external_interruption" 
+	    } 
+	}
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

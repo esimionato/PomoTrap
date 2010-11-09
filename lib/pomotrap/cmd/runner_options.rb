@@ -17,8 +17,8 @@ module Pomotrap
             self[:now] = true
           end
           
-          o.on('-a', '--add [DESCRIPTION]', 'Add a new Task to To Do Today sheet') do |task|
-            self[:task] = task || "a task"
+          o.on('-a', '--add DESCRIPTION', 'Add a new Task to To Do Today sheet') do |task|
+            self[:task] = task
           end
 
           o.on('-t', '--task [NUMBER]', 'Start pomodoro on prioritized Task') do |task|

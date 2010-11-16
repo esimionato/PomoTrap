@@ -17,15 +17,15 @@ module Pomotrap
             self[:now] = true
           end
           
-          o.on('-A', '--add DESCRIPTION', 'Add a new Activity to To Do Today sheet') do |activity|
+          o.on('-a', '--add DESCRIPTION', 'Add a new Activity to To Do Today sheet') do |activity|
             self[:activity] = activity
           end
 
-          o.on('-a', '--activity [NUMBER]', 'Start pomodoro on prioritized Activity') do |task|
+          o.on('-p', '--pomodoro [NUMBER]', 'Start pomodoro on prioritized Activity') do |task|
             self[:pomodoro] = task || 1
           end
           
-          o.on('-k', '--kill [NUMBER]', 'Finish Activity!') do |task|
+          o.on('-k', '--kill [NUMBER]', 'Finish an Activity!') do |task|
             self[:kill] = task || 1
           end
 

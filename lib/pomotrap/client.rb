@@ -13,7 +13,7 @@ module Pomotrap
     format :json
 
     attr_reader :api_token
-    
+
     ICON = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'img', 'tomato.jpeg'))
 
     def initialize(token, debug=false)
@@ -33,7 +33,6 @@ module Pomotrap
 
     def find_or_create_to_do_today
       today = date("today")
-      puts today
       get "to_do_today/#{today}", {:params => {}}
     end
 
@@ -45,24 +44,37 @@ module Pomotrap
     end
 
     def fire_pomodoro(params={})
-
-      # 1) having task priority, get task id
-      # 2) assign new pomodoro to task
-      # 3)
-
-      notify_about("pomodoro started!")
+      priority = params.to_i
+      @to_do_today = get "to_do_today/#{date("today")}", {:params => {}}
+      activities_request = get "to_do_todays/#{date("today")}/activities", {:params => {:priority => priority}}
+      activities = activities_request.parsed_response
       
-      scheduler = Rufus::Scheduler.start_new
+      activity = activities.detect { |a| a["activity"]["priority"] == priority }
+      debugger
+      post "to_do_todays/#{date('today')}/activities/#{activity['activity']['id'] }/pomodoros", { :pomodoro => params } # TODO fixme
+      notify_about("pomodoro started!")
 
-      scheduler.every '1m' do
-        notify_about("Pomodoro running")
-      end
+      # update priorities
+      
+      
 
-      scheduler.in '25m' do
-        notify_about("Pomodoro ended!")
-      end
 
-      post 'to_do_todays', {:to_do_today => params} # TODO fixme
+
+      # scheduler = Rufus::Scheduler.start_new
+
+      Rufus::Scheduler.start_new.every('5s') { notify_about("pomodoro running!") }
+
+      # scheduler = Rufus::Scheduler::PlainScheduler.start_new(:thread_name => 'my scheduler')
+      # 
+      # scheduler.every '10s' do
+      #   notify_about("pomodoro running!")
+      # end
+      # 
+      # scheduler.start
+
+
+      
+      # post 'to_do_todays', {:to_do_today => params} # TODO fixme
     end
 
 
@@ -74,7 +86,7 @@ module Pomotrap
       when /darwin/
         system "growlnotify -t '#{title}' -m '#{message}' --image #{Pomotrap::Client::ICON}"
       when /mswin|mingw|win32/
-        Snarl.show_message title, message, nil
+        # Snarl.show_message title, message, nil
       end
     end
 
@@ -117,6 +129,15 @@ module Pomotrap
     end
 
 
+  end
+
+  class Job
+    def initialize(relevant_info)
+      @ri = relevant_info
+    end
+    def call(job)
+      notify_about(@ri)
+    end
   end
 
 end

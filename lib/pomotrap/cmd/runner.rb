@@ -8,7 +8,7 @@ module Pomotrap
 
       def self.run(args)
         settings = YAML::load_file("#{ENV['HOME']}/pomotrap.yml")
-        cli = Pomotrap::Client.new(settings[:token], settings[:debug])
+        cli = Pomotrap::Client.new(settings["token"], settings["debug"])
         options = ::Pomotrap::Cmd::RunnerOptions.new(args)
         if options[:now]
           display(cli.activities["to_do_today"]["activities"])
@@ -18,6 +18,7 @@ module Pomotrap
         elsif options[:pomodoro]
           puts "Prioritizing task #{options[:pomodoro]}"
           cli.fire_pomodoro(options[:pomodoro])
+          display(cli.activities["to_do_today"]["activities"])
           puts "work in progress.."
         elsif options[:kill]
           puts "Finishing task #{options[:kill]}"
@@ -33,12 +34,13 @@ module Pomotrap
         prettify_tasks(activities)
       end
 
-      TASK_FIELDS = %w(priority id description pomodoros interruptions)
+      TASK_FIELDS = %w(priority id description pomodoros interruptions) # TODO remove ID column in future
 
       def self.prettify_tasks(values)
         values = [values] unless values.is_a?(Array)
         values.each do |value|
-          # value["interruptions"] = 1 
+          value["pomodoros"] =  value["pomodoros"].size
+          #value["interruptions"] = 1 
         end
         values.view(:class => :table, :fields => TASK_FIELDS)
       end

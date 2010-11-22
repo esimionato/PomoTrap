@@ -1,4 +1,7 @@
 h1. To Do
 
+# Exceptions handling
+
+
 # Extract ideas from the book The Pomodoro Technique Illustrated
 # Extract ideas from the book Pomodoro Technique by Francesco Cirillo

@@ -49,7 +49,6 @@ module Pomotrap
       activities = activities_request.parsed_response
 
       activity = activities.detect { |a| a["activity"]["priority"] == priority }
-      debugger
       post "to_do_todays/#{date('today')}/activities/#{activity['activity']['id'] }/pomodoros", { :pomodoro => params } # TODO fixme
       notify_about("pomodoro started!")
 

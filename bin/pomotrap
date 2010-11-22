@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby 
 require 'rubygems'
+require 'ruby-debug'
+require 'colored'
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 require 'pomotrap/client'
 require 'pomotrap/solitaire'

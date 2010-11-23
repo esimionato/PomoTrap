@@ -13,14 +13,12 @@ module Pomotrap
       end
 
       def create_task(description)
-        description = description.gsub(',', ' ')
+        # description = description.gsub(',', ' ')
         Pomotrap::Solitaire::FileOperations.create_task(description)
       end
       
       def fire_pomodoro(priority)
-        
-        
-        puts "foo"
+        Pomotrap::Solitaire::FileOperations.fire_pomodoro(priority)
       end
 
       def activities

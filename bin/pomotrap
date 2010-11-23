@@ -2,9 +2,11 @@
 require 'rubygems'
 require 'ruby-debug'
 require 'colored'
+require 'gdb'
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 require 'pomotrap/client'
 require 'pomotrap/solitaire'
+require 'pomotrap/solitaire/pomodoro'
 require 'pomotrap/solitaire/file_operations'
 require 'pomotrap/cmd/runner'
 require 'pomotrap/cmd/runner_options'

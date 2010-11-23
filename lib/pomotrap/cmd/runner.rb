@@ -15,7 +15,7 @@ module Pomotrap
           cli.create_task(options[:activity])
           display(cli.activities)
         elsif options[:pomodoro]
-          puts "Prioritizing task #{options[:pomodoro]}".red_on_white.bold
+          puts "Prioritizing task #{options[:pomodoro]}".red_on_white
           cli.fire_pomodoro(options[:pomodoro])
           display(cli.activities)
           puts "work in progress.."
@@ -33,7 +33,7 @@ module Pomotrap
         prettify_tasks(activities)
       end
 
-      TASK_FIELDS = %w(description pomodoros interruptions)
+      TASK_FIELDS = %w(description priority pomodoros interruptions)
 
       def self.prettify_tasks(values)
         values = [values] unless values.is_a?(Array)

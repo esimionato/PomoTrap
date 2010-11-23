@@ -1,3 +1,16 @@
 #!/usr/bin/env ruby 
+require 'rubygems'
+require 'ruby-debug'
+require 'hirb'
+require 'pomotrap/solitaire'
+require 'pomotrap/solitaire/pomodoro'
+require 'pomotrap/solitaire/file_operations'
+require 'pomotrap/cmd/runner'
+require 'pomotrap/cmd/runner_options'
+require 'pomotrap/cmd/interruptions_runner'
+require 'pomotrap/cmd/interruptions_options'
 
 puts "Internal interruption on current pomodoro"
+
+Hirb.enable
+Pomotrap::Cmd::InterruptionsRunner.run(ARGV)

@@ -12,7 +12,7 @@ module Pomotrap
         if options[:now]
           display(cli.activities)
         elsif options[:activity]  
-          cli.create_task(options[:activity])
+          cli.create_activity(options[:activity])
           display(cli.activities)
         elsif options[:pomodoro]
           puts "Prioritizing task #{options[:pomodoro]}".red_on_white
@@ -24,6 +24,12 @@ module Pomotrap
           puts "work in progress.."
         else
           puts options.opts
+        end
+      end
+
+      def self.interrupt
+        if options[:activity]  
+          options = Pomotrap::Cmd::InterruptionsOptions.new(args)
         end
       end
 

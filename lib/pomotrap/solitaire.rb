@@ -12,9 +12,8 @@ module Pomotrap
         sheet = Pomotrap::Solitaire::FileOperations.retrieve_to_do_today
       end
 
-      def create_task(description)
-        # description = description.gsub(',', ' ')
-        Pomotrap::Solitaire::FileOperations.create_task(description)
+      def create_activity(description)
+        Pomotrap::Solitaire::FileOperations.create_activity(description)
       end
       
       def fire_pomodoro(priority)

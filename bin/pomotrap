@@ -9,6 +9,8 @@ require 'pomotrap/solitaire/pomodoro'
 require 'pomotrap/solitaire/file_operations'
 require 'pomotrap/cmd/runner'
 require 'pomotrap/cmd/runner_options'
+require 'pomotrap/cmd/interruptions_runner'
+require 'pomotrap/cmd/interruptions_options'
 require 'hirb'
 require 'hirb/import_object'
 

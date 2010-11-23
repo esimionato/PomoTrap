@@ -35,7 +35,7 @@ module Pomotrap
       get "to_do_today/#{today}", {:params => {}}
     end
 
-    def create_task(description)
+    def create_activity(description)
       today = date("today")
       to_do_today = get "to_do_today/#{today}", {:params => {}}
       params = {:activity => {:description => description, :to_do_today_id => to_do_today["to_do_today"]["id"]}}
@@ -82,7 +82,7 @@ module Pomotrap
       when /linux/
         system "notify-send '#{title}' '#{message}' "
       when /darwin/
-        system "growlnotify -t '#{title}' -m '#{message}' --image #{Pomotrap::Client::ICON}"
+        system "growlnotify -t '#{title}' -m '#{message}' --image #{Pomotrap::Solitaire::Pomodoro::ICON}"
       when /mswin|mingw|win32/
         # Snarl.show_message title, message, nil
       end

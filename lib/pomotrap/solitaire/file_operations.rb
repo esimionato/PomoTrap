@@ -59,12 +59,14 @@ module Pomotrap
         scheduler.in '10s' do
           puts 'pomodoro ended'
         end
-        # and so on...
+        scheduler.in '11s' do
+          scheduler.stop
+        end
+        # HAH! :P
         scheduler.at DateTime.now do
           puts "Try to focus for 25 minutes now.".red_on_white
         end
         scheduler.join
-        puts "yeah"
       end
 
       def self.retrieve_activities

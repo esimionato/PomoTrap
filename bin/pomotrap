@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby 
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'rufus/scheduler'
+require 'csv'
 require 'rubygems'
 require 'ruby-debug'
 require 'colored'
-$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 require 'pomotrap/client'
 require 'pomotrap/solitaire'
 require 'pomotrap/solitaire/pomodoro'
@@ -13,6 +15,5 @@ require 'pomotrap/cmd/interruptions_runner'
 require 'pomotrap/cmd/interruptions_options'
 require 'hirb'
 require 'hirb/import_object'
-
 Hirb.enable
 Pomotrap::Cmd::Runner.run(ARGV)

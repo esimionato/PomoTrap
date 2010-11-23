@@ -1,6 +1,7 @@
 require 'fastercsv'
 require 'csv-mapper'
 require 'rufus/scheduler'
+require 'colored'
 
 module Pomotrap
   APPLICATION_NAME = "Pomotrap"
@@ -60,10 +61,9 @@ module Pomotrap
         end
         # and so on...
         scheduler.at DateTime.now do
-          puts 'Try to focus for 25 minutes now.'
+          puts "Try to focus for 25 minutes now.".red_on_white
         end
         scheduler.join
-        return
         puts "yeah"
       end
 
